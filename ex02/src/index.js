@@ -1,6 +1,6 @@
 //Only change code below this line
 function myCounter(n) {
-  if (n <1 ) {
+  if (n < 1 ) {
     return[];
   } else {
     const countArray = myCounter(n - 1);
