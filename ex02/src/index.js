@@ -1,3 +1,4 @@
+//Only change code below this line
 function myCounter(n) {
   if (n <1 ) {
     return[];
@@ -6,7 +7,7 @@ function myCounter(n) {
     countArray.push(n);
     return countArray;
   }
-  
+  //Only chande code above this line
 }
 console.log(myCounter(-1));
 console.log(myCounter(10));
